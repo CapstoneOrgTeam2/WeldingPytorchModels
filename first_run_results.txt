@@ -1,0 +1,9 @@
+C:\Users\gutte\AppData\Local\Programs\Python\Python312\python.exe C:\Users\gutte\OneDrive\Documents\School_2025\Capstone\MyFirstTryProject\DataProcessingProject\cnn2.py 
+Epoch [1/5], Loss: 0.9740, Val Acc: 60.64%
+Epoch [2/5], Loss: 0.5220, Val Acc: 76.60%
+Epoch [3/5], Loss: 0.1359, Val Acc: 69.86%
+Epoch [4/5], Loss: 0.0268, Val Acc: 74.11%
+Epoch [5/5], Loss: 0.0140, Val Acc: 76.24%
+Test Accuracy: 74.60%
+
+Process finished with exit code 0
