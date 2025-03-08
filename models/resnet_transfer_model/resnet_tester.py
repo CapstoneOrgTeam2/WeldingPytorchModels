@@ -11,7 +11,7 @@ from collections import Counter
 
 def main():
  
-    data_dir = r"C:\Users\gutte\OneDrive\Documents\School_2025\Capstone\MyFirstTryProject\DataProcessingProject\Separated_Dataset"
+    data_dir = r"Separated_Dataset"
     test_dir = os.path.join(data_dir, "test")
     
 
@@ -99,11 +99,11 @@ def main():
 
     result += f"\nCorrectly classified images: {len(correct_files)} ({correct_pct:.2f}%)\n"
    
-   for cf in correct_files:
+    for cf in correct_files:
         result += f"  {cf}\n"
     result += f"\nMisclassified images: {len(wrong_files)} ({wrong_pct:.2f}%)\n"
    
-   for wf in wrong_files:
+    for wf in wrong_files:
         result += f"  {wf}\n"
 
     with open("resnet_tester_results.txt", "w") as f:
