@@ -1,7 +1,7 @@
 import os
 import sqlite3
 
-DATABASE_FILE = "dataset_database_1.db"
+DATABASE_FILE = "database/dataset_database_1.db"
 
 # 0 -> Bad_Weld, 1 -> Good_Weld
 DATASET_PATHS = {

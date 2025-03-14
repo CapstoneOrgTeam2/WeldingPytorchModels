@@ -63,13 +63,13 @@ def main():
     muddy_filenames = [row[0] for row in cursor.fetchall()]
 
     folder_candidates = [
-        os.path.join("Separated_Dataset", "train", "Bad_Weld"),
-        os.path.join("Separated_Dataset", "valid", "Bad_Weld")
+        os.path.join("../Separated_Dataset", "train", "Bad_Weld"),
+        os.path.join("../Separated_Dataset", "valid", "Bad_Weld")
     ]
 
     with open("bad_with_good_label_images.csv", "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["file_name", "possible_path"])
+        writer.writerow(["file_name", "path"])
         for fn in muddy_filenames:
             found = "NOT FOUND"
             for fold in folder_candidates:
@@ -96,7 +96,7 @@ def main():
     print(f"Bad but has Good boxes: {bad_with_good}") # Images that are in bad_weld folder but have good_weld boxes
     print(f"Good but has Bad/Defect boxes: {good_with_bad}") # This should never be above 0.
 
-    print("\nExported 'bad_with_good_label_images.csv' for muddy data (images in Bad_Weld with Good boxes.")
+    print("\nExported 'bad_with_good_label_images.csv' for muddy data (images in Bad_Weld with Good boxes).")
 
 if __name__ == "__main__":
     main()
