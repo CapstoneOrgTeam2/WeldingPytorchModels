@@ -1,20 +1,30 @@
 Loading model from 'resnet_model.pth'
 
-Test Accuracy: 91.30%
+Test Accuracy: 86.11%
 
 Count of Actual Classes:
-  Bad_Weld: 5 (21.74%)
-  Good_Weld: 18 (78.26%)
+  Bad_Weld: 14 (38.89%)
+  Good_Weld: 22 (61.11%)
 
 Count of Predicted Classes:
-  Bad_Weld: 5 (21.74%)
-  Good_Weld: 18 (78.26%)
+  Bad_Weld: 17 (47.22%)
+  Good_Weld: 19 (52.78%)
 
-Correctly classified images: 21 (91.30%)
+Correctly classified images: 31 (86.11%)
+  Separated_Dataset\test\Bad_Weld\010001.png
+  Separated_Dataset\test\Bad_Weld\010009.png
+  Separated_Dataset\test\Bad_Weld\230019.png
+  Separated_Dataset\test\Bad_Weld\240029.jpg
+  Separated_Dataset\test\Bad_Weld\240029.png
+  Separated_Dataset\test\Bad_Weld\A0088.png
+  Separated_Dataset\test\Bad_Weld\A0094.png
   Separated_Dataset\test\Bad_Weld\Screenshot-2022-12-05-223853_jpeg_jpg.rf.42262466b642c35f0aeafa519c286014.jpg
   Separated_Dataset\test\Bad_Weld\Screenshot-2022-12-05-231137_jpeg_jpg.rf.42877dab72b743349e3403cfeffff7ca.jpg
   Separated_Dataset\test\Bad_Weld\cracked0.png
   Separated_Dataset\test\Bad_Weld\cracked1.png
+  Separated_Dataset\test\Bad_Weld\data0016 (2).png
+  Separated_Dataset\test\Bad_Weld\data220015.png
+  Separated_Dataset\test\Good_Weld\0010072.png
   Separated_Dataset\test\Good_Weld\1.2.png
   Separated_Dataset\test\Good_Weld\1.3.png
   Separated_Dataset\test\Good_Weld\1.png
@@ -33,6 +43,9 @@ Correctly classified images: 21 (91.30%)
   Separated_Dataset\test\Good_Weld\5.2.png
   Separated_Dataset\test\Good_Weld\5.3.png
 
-Misclassified images: 2 (8.70%)
+Misclassified images: 5 (13.89%)
   Separated_Dataset\test\Bad_Weld\Screenshot-2022-12-05-223504_jpeg.rf.f6c1d1d819ba7212516d5da2471bdb04.jpg
+  Separated_Dataset\test\Good_Weld\0010044.png
+  Separated_Dataset\test\Good_Weld\10035.png
+  Separated_Dataset\test\Good_Weld\10046.png
   Separated_Dataset\test\Good_Weld\3.3.png
