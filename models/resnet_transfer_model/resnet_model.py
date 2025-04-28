@@ -8,7 +8,7 @@ from torch.utils.data import DataLoader
 
 
 def main():
-    data_dir = r"C:\Users\gutte\OneDrive\Documents\School_2025\Capstone\WeldingPytorchModels\models\resnet_transfer_model\Separated_Dataset"
+    data_dir = "Separated_Dataset"
     train_dir = os.path.join(data_dir, "train")
     valid_dir = os.path.join(data_dir, "valid")
     test_dir = os.path.join(data_dir, "test")
@@ -51,8 +51,8 @@ def main():
     import torchvision.models as models
     # define new model variants
     model_variants = {
-        "resnet101": models.ResNet101_Weights.DEFAULT,
-        "resnet152": models.ResNet152_Weights.DEFAULT
+        #
+        "resnet18": models.ResNet18_Weights.DEFAULT,
     }
 
     for model_name, weights in model_variants.items():
